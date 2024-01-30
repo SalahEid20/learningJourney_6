@@ -1,0 +1,22 @@
+.price {
+    width: 250px;
+    margin: 100px auto;
+    font-size: 18px;
+}
+.amount {
+    width: 90px;
+    padding: 5px;
+    outline: none;
+}
+.amount::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+.egp, .sar {
+    margin-top: 15px;
+    padding: 5px;
+}
+.egp span, .sar span {
+    /* font-weight: bold; */
+    color: blue;
+}
